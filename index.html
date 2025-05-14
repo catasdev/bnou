@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>bnou</title>
+  <title>ʚɞ</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
@@ -39,8 +39,8 @@
       text-align: center;
       padding: 20px;
       border-radius: 15px;
-      background: rgba(0, 0, 0, 0.25);
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      background: rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
       animation: fadeIn 2s ease-in-out;
       max-width: 800px;
       width: 100%;
@@ -74,12 +74,15 @@
     .gif-container {
       max-width: 400px;
       margin-bottom: 20px;
+      /* Position fixe pour éviter l'effet flottant */
+      position: static;
     }
 
     .gif-container img {
       width: 100%;
       border-radius: 10px;
-      animation: bounce 2s ease-in-out infinite;
+      /* Animation supprimée pour rendre l'image statique */
+      animation: none;
     }
 
     .links {
@@ -94,7 +97,7 @@
       font-size: 1.2rem;
       padding: 10px;
       border-radius: 5px;
-      background-color: #8400ff00;
+      background-color: #5151514d;
       box-shadow: 0 0 5px rgba(0, 0, 0, 100);
       transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
       display: flex;
@@ -140,7 +143,7 @@
     }
 
     .gacha-header {
-      background: rgba(132, 0, 255, 0.3);
+      background: #5151514d;
       color: white;
       padding: 12px;
       font-weight: bold;
@@ -167,7 +170,7 @@
     }
 
     .info-value {
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: #0000004d;
       padding: 8px 12px;
       border-radius: 4px;
       font-family: monospace;
@@ -176,7 +179,7 @@
     }
 
     .copy-btn {
-      background-color: rgba(132, 0, 255, 0.3);
+      background-color: #5151514d;
       color: white;
       border: none;
       padding: 5px 10px;
@@ -188,7 +191,7 @@
     }
 
     .copy-btn:hover {
-      background-color: rgba(132, 0, 255, 0.5);
+      background-color: rgba(0, 0, 0, 0.5);
     }
 
     .copy-msg {
@@ -206,7 +209,7 @@
 
     .tab {
       padding: 10px 20px;
-      background: rgba(0, 0, 0, 0.3);
+      background: #0000004d;
       color: white;
       border: none;
       cursor: pointer;
@@ -216,11 +219,11 @@
     }
 
     .tab.active {
-      background: rgba(132, 0, 255, 0.3);
+      background: #5151514d;
     }
 
     .tab:hover {
-      background: rgba(132, 0, 255, 0.2);
+      background: #5151514d;
     }
 
     .tab-content {
@@ -244,14 +247,7 @@
       }
     }
 
-    @keyframes bounce {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-10px);
-      }
-    }
+    /* Animation bounce supprimée car elle n'est plus utilisée */
 
     /* Responsive adjustments */
     @media (max-width: 768px) {
@@ -276,12 +272,12 @@
 </head>
 <body>
   <video autoplay loop muted>
-    <source src="https://media-hosting.imagekit.io/22920c14ac284074/riku-with-shuvi-no-game-no-life-zero-moewalls-com.mp4?Expires=1841546589&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=AyAWZhiU2uJGZD5Z73H72dIhlEBwPn7h1YViub~hiiCJMvOUIwh2yzqtf9PkMYE0wELKMcmTaxXUAeSTYy74IWOPvePyUxIdGJvRUWc2Q6pzQ3YrrbP1q9gmfYgzdPeM2oMaHXZXyH2IUAtGaSUgfRunAqPSxuhnNEr73g5~-Fcbv0ZL4kKVbYbsTCDcOqXsm1V6fxbpvaVQ~PWpej4D4hR33cFO3w3nmqPZx9k-BUl7pxOlB2IGzckUY5J2jgTQHwUSadmXNpni~Rl5nmLjcHso~S3qHP008j1GZ6N55bsgJEFMJXkF0gW4rnS9VMbYPiuumwLAQyIUFxsLeU02DQ__" type="video/mp4">
+    <source src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1119980/4597e35f757dd3e0ed4fb7dff712a233fa45488c.mp4" type="video/mp4">
   </video>
   
   <div class="container">
-    <h1>『ベン』</h1>
-    <p class="highlight-text">こんにちは、ベンです！ビデオゲーム、特にガチャと日本のアニメが大好きです。私のネットワークはすべて以下からご覧いただけます。よかったらフォローしてください。</p>
+    <h1>bnou</h1>
+    <p class="highlight-text">こんにちは、ベンです。連絡を取りたい場合は、以下のネットワークをご利用ください。また、ガチャゲームをプレイしている場合は、ゲームIDタブで私のアカウントを見つけることができます。</p>
 
     <div class="tabs">
       <button class="tab active" onclick="openTab('profile')">プロフィール</button>
@@ -290,9 +286,9 @@
 
     <div id="profile" class="tab-content active">
       <div class="content">
-        <!-- gif ngnl -->
+        <!-- gif -->
         <div class="gif-container">
-          <img src="https://media-hosting.imagekit.io/5b14a48d691e4322/image_2025-05-11_060903724.png?Expires=1841619697&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=TTsxf3jDiNqvEptLWWugcuzQ2G3V5DLZXGFIaR4qEqT-7HOYsCsvBkPHFJwWwEAQUavP78o-KCPP2mXhm9WHCiSmbSYOQPG7g~zcb3akeFNODi-mQzzoG59ATxJGpUWCpi0n4GqsVckD6GewO7rpgITkGlKujW4Srgy8fTIyjWgWiWS6h6tXD49gB3wD3fXKGR5pgSI6GdeFrkB5WTMuacq7Q5BKhIRQuMH9-97tSiUqfRRWh0zr0M5CuPylp8XVE~t4tISzUSm~S46joOobDyCVRyADYk8v57c2vUWR6K7CIBgAw64gyv2vaXhYhxnplwSb3Uo2uaaK2Ok2wk0E0Q__" alt="">
+          <img src="https://media-hosting.imagekit.io/17c7c1ff15df4e74/ezgif-7890784278c077.gif?Expires=1841849924&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Mwk62o7bZhNjtALle9vy5YGBv83DpHszL4No1oqlI~e9iqEFor9uoSIv05uiW4LK5We4YF~mPFavkaQEtyAQvWD2xBeujf0wO2M7hFsBJ0HG~eQU~Yp8cN68mUeHaYyxgVaP3oMzF8FkbYCnyC-LgUJt9M1lCf59WhX51X0xNMUfNWNFScRgSZjTpbLTrPgykvoTFN-JesB-dJnv9~f9175SDCrWjVvnx-3R1sFBmAN3qGVtdmovZLXE3mOI4WhMLk8vBKt56Q5eGQT24U-2zhhnLREDw5xEkedyhrO0SRS9HaVMoYXzeiyUtHNtq6GozmO4P21x1PgM73MabdrLtQ__" alt="">
         </div>
 
         <div class="links">
